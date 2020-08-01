@@ -25,7 +25,7 @@ def home(request):
         'country': geodata['country'],
         'latitude': geodata['lat'],
         'longitude': geodata['lon'],
-        'api_key': 'AIzaSyB952hvmpzaswkLSGgOiIrfdBrqSfIY-nU',  # Don't do this! This is just an example. Secure your keys properly.
+
         'is_cached': is_cached
     })
 
